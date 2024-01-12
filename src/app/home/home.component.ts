@@ -103,7 +103,7 @@ import { interval } from 'rxjs';
       </div>
    `,
 })
-export default class HomeComponent implements OnInit {
+export  class HomeComponent implements OnInit {
    data = signal<Crypto[]>([]);
    service = inject(HttpService);
    err = signal('');
